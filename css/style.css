@@ -7,10 +7,25 @@
 ----------------*/
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
 }
 /*--------------------- 
    Header Style
 ----------------------*/
-.t-color{
-    color: rgba(0, 0, 0, 0.835);
+h1{
+    color: #31A5Ac;
+}
+/*-----------------
+   Main Blog Style 
+------------------*/
+.backg-color{
+    background-color: #F8F8F8;
+}
+.btn-bg-color{
+    background-color: #59A5FF;
+}
+.input-bg-color{
+    background-color: #DCDCDC;
 }
