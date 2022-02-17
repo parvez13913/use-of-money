@@ -54,7 +54,7 @@ function savingTotalAmount(save,incomeValue){
     const income = parseFloat(incomeText);
     const totalExpenses = foodCost + rentCost + clothescost ;
     const balance = income - totalExpenses;
-    const savingsAmount = (saveAmount * balance) / 100;
+    const savingsAmount = (saveAmount * income) / 100;
     // errorAlert---------
     if(balance < savingsAmount){
         document.getElementById('notify-1').style.display = 'block';
